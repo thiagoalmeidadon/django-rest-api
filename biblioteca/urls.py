@@ -21,7 +21,7 @@ from livros.api import viewsets as livroview
 
 router = routers.DefaultRouter()
 
-router.register(r'livros/', livroview.LivrosViewSet, basename='Livros')
+router.register(r'livros', livroview.LivrosViewSet, basename='Livros')
 
 
 urlpatterns = [
